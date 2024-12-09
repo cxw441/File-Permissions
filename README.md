@@ -1,6 +1,6 @@
 # File-Permissions
 
-The chmod (short for change mode) command is used to manage file system access permissions on Unix and Unix-like systems. Effect of Permissions on Files: 
+The chmod (short for change mode) command is used to manage file system access permissions on Unix and Unix-like systems. 
 
 | Mode          |  Character            | Meaning on File                                                             |
 | ------------- | ----------------------| --------------------------------------------------------------------------- |
@@ -12,6 +12,9 @@ The chmod (short for change mode) command is used to manage file system access p
 |               | -                     | The file cannot be executed.                                                |
 
 In the example above (rw-r--r--) means that the file owner has read and write permissions (rw-), the group and others have only read permissions (r--).
+
+
+Effect of Permissions on Files: 
 
 chmod [references][operator][modes] FILENAME...
 
@@ -26,12 +29,14 @@ To add the execute permission for the user: chmod u+x FILENAME
 
 To remove the write permission for others: chmod o-w FILENAME
 
+
+Effect of Permissions on Directories (Folders): 
+
 chmod [references][operator][modes] DIRECTORYNAME...
 
 chmod -R u+rw,g-,o-rx DIRECTORY means that Recursively (i.e. on all files and directories in DIRECTORYNAME) adds read, write permissions for User, removes read, write, and execution permissions for Group, and removes read and execution permissions for Others
 
 Task: chmod uog-w -R Michael_MDM2*
-
 
 
 
