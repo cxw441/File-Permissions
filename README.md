@@ -25,6 +25,7 @@ chmod [references][operator][modes] FILENAME...
 | o           |  others            | users who are neither the file's owner nor members of the file's group|
 | a           |  all               | all three of the above, same as ugo                                   |
 
+
 | Operator   |  Description                                                                    |
 | -----------| --------------------------------------------------------------------- --------- |
 | +          |  adds the specified modes to the specified classes                              |
