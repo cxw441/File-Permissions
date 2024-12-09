@@ -16,15 +16,11 @@ In the example above (rw-r--r--) means that the file owner has read and write pe
 chmod [references][operator][modes] FILENAME...
 
 | Reference   |  Class             | Description                                                           |
-
+| ----------- | -------------------| --------------------------------------------------------------------- |
 | u           |  user              | file owner                                                            |
-
 | g           |  group             | members of the file's group                                           |
-
 | o           |  others            | users who are neither the file's owner nor members of the file's group|
-
 | a           |  all               | all three of the above, same as ugo                                   |
-
 
 To add the execute permission for the user: chmod u+x FILENAME 
 To remove the write permission for others: chmod o-w FILENAME
