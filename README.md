@@ -23,6 +23,7 @@ chmod [references][operator][modes] FILENAME...
 | a           |  all               | all three of the above, same as ugo                                   |
 
 To add the execute permission for the user: chmod u+x FILENAME 
+
 To remove the write permission for others: chmod o-w FILENAME
 
 chmod [references][operator][modes] DIRECTORYNAME...
@@ -30,8 +31,6 @@ chmod [references][operator][modes] DIRECTORYNAME...
 chmod -R u+rw,g-,o-rx DIRECTORY means that Recursively (i.e. on all files and directories in DIRECTORYNAME) adds read, write permissions for User, removes read, write, and execution permissions for Group, and removes read and execution permissions for Others
 
 Task: chmod uog-w -R Michael_MDM2*
-
-
 
 
 
