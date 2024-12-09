@@ -14,6 +14,7 @@ The chmod (short for change mode) command is used to manage file system access p
 In the example above (rw-r--r--) means that the file owner has read and write permissions (rw-), the group and others have only read permissions (r--).
 
 To add the execute permission for the user: chmod u+x *
+
 To remove the write permission for others: chmod o-w *
 
 
