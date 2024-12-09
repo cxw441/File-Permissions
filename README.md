@@ -25,6 +25,13 @@ chmod [references][operator][modes] FILENAME...
 | o           |  others            | users who are neither the file's owner nor members of the file's group|
 | a           |  all               | all three of the above, same as ugo                                   |
 
+| Operator   |  Description                                                                    |
+| -----------| --------------------------------------------------------------------- --------- |
+| +          |  adds the specified modes to the specified classes                              |
+| -          |  removes the specified modes from the specified classes                         |
+| =          |  the modes specified are to be made the exact modes for the specified classes   |
+
+
 To add the execute permission for the user: chmod u+x FILENAME 
 
 To remove the write permission for others: chmod o-w FILENAME
