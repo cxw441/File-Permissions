@@ -27,7 +27,7 @@ chmod [references][operator][modes] FILENAME...
 
 
 | Operator   |  Description                                                                    |
-| -----------| --------------------------------------------------------------------- --------- |
+| -----------| ------------------------------------------------------------------------------- |
 | +          |  adds the specified modes to the specified classes                              |
 | -          |  removes the specified modes from the specified classes                         |
 | =          |  the modes specified are to be made the exact modes for the specified classes   |
