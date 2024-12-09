@@ -34,7 +34,7 @@ Effect of Permissions on Directories (Folders):
 
 chmod [references][operator][modes] DIRECTORYNAME...
 
-chmod -R u+rw,g-,o-rx DIRECTORY means that Recursively (i.e. on all files and directories in DIRECTORYNAME) adds read, write permissions for User, removes read, write, and execution permissions for Group, and removes read and execution permissions for Others
+chmod -R u+rw,g-,o-rx DIRECTORYNAME means that Recursively (i.e. on all files and directories in DIRECTORYNAME) adds read, write permissions for User, removes read, write, and execution permissions for Group, and removes read and execution permissions for Others
 
 Task: chmod uog-w -R Michael_MDM2*
 
