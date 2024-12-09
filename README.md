@@ -16,7 +16,7 @@ In the example above (rw-r--r--) means that the file owner has read and write pe
 
 Effect of Permissions on Files: 
 
-chmod [references][operator][modes] FILENAME...
+chmod [references][operator][modes] FILENAME
 
 | Reference   |  Class             | Description                                                           |
 | ----------- | -------------------| --------------------------------------------------------------------- |
@@ -40,7 +40,7 @@ To remove the write permission for others: chmod o-w FILENAME
 
 Effect of Permissions on Directories (Folders): 
 
-chmod [references][operator][modes] DIRECTORYNAME...
+chmod [references][operator][modes] DIRECTORYNAME
 
 chmod -R u+rw,g-,o-rx DIRECTORYNAME means that Recursively (i.e. on all files and directories in DIRECTORYNAME) adds read, write permissions for User, removes read, write, and execution permissions for Group, and removes read and execution permissions for Others
 
