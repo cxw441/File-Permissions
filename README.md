@@ -1,5 +1,7 @@
 # File-Permissions
 
+There are three possible levels of file ownership in Linux - user, group, and other - which determine who can read, write to, and execute a file
+
 The chmod (short for change mode) command is used to manage file system access permissions on Unix and Unix-like systems. 
 
 | Mode          |  Character            | Meaning on File                                                             |
