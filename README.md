@@ -13,7 +13,7 @@ The [chmod] (short for change mode) command is used to manage file system access
 | Execute       | e                     | The file can be executed.                                                   |
 |               | -                     | The file cannot be executed.                                                |
 
-In the example above (rw-r--r--) means that the file owner has read and write permissions (rw-), the group and others have only read permissions (r--).
+In the example above (rw-r--r--) means that the file owner has read and write permissions (rw-), the group and others have only read permissions (r--). In other word, anyone can Read the file, nobody can Execute it, and you are the only user that can Write to it.
 
 
 Effect of Permissions on Files: 
