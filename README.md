@@ -2,7 +2,7 @@
 
 There are three possible levels of file ownership in Linux - User, Group, and Other - which determine who can Read, Write to, and Execute a file
 
-The chmod (short for change mode) command is used to manage file system access permissions on Unix and Unix-like systems. 
+The [chmod] (short for change mode) command is used to manage file system access permissions on Unix and Unix-like systems. 
 
 | Mode          |  Character            | Meaning on File                                                             |
 | ------------- | ----------------------| --------------------------------------------------------------------------- |
